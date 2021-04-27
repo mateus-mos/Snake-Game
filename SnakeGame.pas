@@ -25,8 +25,8 @@ const
     RIGHT = -3;
     LEFT = -4;
     (* Body Icon *)
-    BODY_HORIZONTAL = '║';
-    BODY_VERTICAL = '═';
+    BODY_HORIZONTAL = '═';
+    BODY_VERTICAL = '║';
     BODY_UPRIGHT = '╔';
     BODY_UPLEFT = '╗';
     BODY_DOWNRIGHT = '╚';
@@ -267,10 +267,10 @@ begin
 	    else 
 		(* Print horizontal/vertical parts *)
 		case game.map[i,j] of
-		    UP:write(BODY_HORIZONTAL);
-		    DOWN:write(BODY_HORIZONTAL);
-		    LEFT:write(BODY_VERTICAL);
-		    RIGHT:write(BODY_VERTICAL);
+		    UP:write(BODY_VERTICAL);
+		    DOWN:write(BODY_VERTICAL);
+		    LEFT:write(BODY_HORIZONTAL);
+		    RIGHT:write(BODY_HORIZONTAL);
 		end;
 	    textcolor(GAME_COLOR);
 	end;
