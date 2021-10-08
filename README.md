@@ -4,6 +4,7 @@ Terminal snake game made with Pascal.
 <p align="center">
   <img src="snake_game.gif" alt="animated" />
 </p>
+
 ## Requirements
   
  - Free Pascal compiler available in https://www.freepascal.org/
