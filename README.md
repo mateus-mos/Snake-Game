@@ -1,5 +1,6 @@
 # Snake-Game
 Terminal snake game made with Pascal.
+![](snake_game.gif)
 ## Requirements
   
  - Free Pascal compiler available in https://www.freepascal.org/
